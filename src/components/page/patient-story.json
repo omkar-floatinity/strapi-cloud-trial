@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_patient_stories",
+  "info": {
+    "displayName": "PatientStory"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "testimonial": {
+      "type": "text"
+    },
+    "costBreakdown": {
+      "type": "blocks"
+    },
+    "destinationFlag": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

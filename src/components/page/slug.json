@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_slugs",
+  "info": {
+    "displayName": "Slug"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    }
+  }
+}

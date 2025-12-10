@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_destination_cards",
+  "info": {
+    "displayName": "DestinationCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cvScore": {
+      "type": "string"
+    },
+    "savings": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "countryFlag": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

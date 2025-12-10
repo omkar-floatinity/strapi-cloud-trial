@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_text_blocks",
+  "info": {
+    "displayName": "MDTextBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "markdownText": {
+      "type": "richtext"
+    }
+  }
+}

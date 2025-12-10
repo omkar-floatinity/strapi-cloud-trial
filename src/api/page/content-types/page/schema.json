@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "ContentPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.quote",
+        "shared.media",
+        "shared.list",
+        "shared.image-gallery",
+        "shared.button",
+        "page.text-block",
+        "page.hero-section",
+        "page.destination-card",
+        "page.faq-section",
+        "page.slug",
+        "page.title",
+        "page.json-ld",
+        "page.plain-text-block",
+        "shared.rich-text",
+        "page.patient-story"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "jsonLd": {
+      "type": "json"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    }
+  }
+}

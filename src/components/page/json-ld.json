@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_json_lds",
+  "info": {
+    "displayName": "JsonLD"
+  },
+  "options": {},
+  "attributes": {
+    "jsonLd": {
+      "type": "json"
+    }
+  }
+}
