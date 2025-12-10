@@ -2,6 +2,5 @@
 .env
 .env.*
 /dist
-/config
 .strapi
 .strapi/client
